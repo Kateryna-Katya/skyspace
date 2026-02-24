@@ -63,3 +63,28 @@ color: #efb00d;
   }
 }
 /* The World */
+.world-section{
+    background-image: url("/img/world/mob.png");
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    background-size: 100% 624px;
+    height: 1186px;
+}
+.world-text{
+    margin-top: 32px;
+    width: 323px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.desk{display: none;}
+@media only screen and (min-width: 1440px) {
+.world-section{
+    background-image: url("/img/world/desk.png");
+    background-size: 100% 624px;
+   height: 948px;
+}
+.world-text{
+    width: 100%;
+}
+.desk{display: block;}
+}
