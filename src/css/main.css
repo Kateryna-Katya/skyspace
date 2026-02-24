@@ -170,3 +170,33 @@ color: #efb00d;
     margin-top: 40px;
    }
 }
+/* Ritual Symbols */
+.ritual-section{
+    background-image: url("/img/ritual/mob.png");
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+}
+.ritual-wrapper{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;  
+    gap: 24px;  
+}
+.ritual-list{
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+}
+@media only screen and (min-width: 1440px) {
+.ritual-section{
+    background-image: url("/img/ritual/desk.png");
+}
+.ritual-wrapper {
+    gap: 32px;
+}
+.ritual-list {
+    gap: 24px;
+}
+}
